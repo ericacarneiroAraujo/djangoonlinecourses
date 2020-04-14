@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<!--Index é o nome padrão - homepage.
+Elemento : <elemento ou tag> 
+	ex:
+	<html> abrindo o elemento.
+
+
+	</html> fechando o elemento.
+
+°Iniciamos pelo head
+
+Dentro do elemento head colocamos as informações da página;
+Dentro do elemento body temos a estrutura da página.
+
+
+°De h1 até h6 são níveis de headings em html
+°<p> Tag para parágrafo 
+°Tag para negrito <b>...</b> itálico <i>...</i>
+<br>
+Atributos em html:
+Atributo title <h1 title = " hhh"> Quando passamos o mouse sobre a plavra ele apresenta o texto.
+Como colocar imagem em html?
+<img src = " img/imagem.jpg" alt = " "> alt é um texto alternativo da imagem. serve para searching 
+alt também é bom para deficientes visuais, o conteúdo é lido por softwares.
+imagem salva na mesma pasta: nome da imagem na pasta normalmente abro uma pasta img para por todas as imagens.
+imagem da internet:endereço da imagem. cola o endereço dentro do source (src) 
+
+Como fazer um link em html?
+<a> elemento do link. Dentro de '<a>' fica o texto que vai ser mostrado. </a>
+<a href = " caminho do link. Use http "> Texto exibido do link </a>
+<a href "caminho do link"> <img src = " img/imagem.jpg" alt = " "></a>
+imagem com link.
+
+
+Formatação de conteúdo:
+****************************************************************************************
+
+Colorindo: 
+<style>
+tipos 
+	inline style - listad dentro de cada elelemento.<h1 style="color: red"; background-color =  "black" title = "Titulo"> The title here </h1>
+	Inline style não é recomendado.
+	Internal style - listado dentro do elemento head
+
+	<head>
+		<style>
+			h1 {
+				background-color: black;
+				color: white;
+
+				} -> h1 é o elemento com background-color:black;
+
+
+			</style>
+		</head>
+
+CSS :
+EXTERNAL STYLE
+styles.css
+
+
+Elemento Div:
+body: cor de fundo
+
+
+
+-->
+
+<html>
+	<head>
+		<!-- Conj. de caracteres -->
+		<meta charset="utf-8">
+		<!--Título do site-->
+
+		<div class="inicio">
+
+
+		<link rel="stylesheet" href="css/styles.css">
+		<h1 title = "Título do artigo"> <b> Hello people </b></h1>
+		<title> Idealizando o melhor em você</title>
+		
+	</div>
+
+		</head>
+
+	<body>
+		<div> 
+
+			<h3> Economia </h3>
+			<h2> Negócios </h2>
+		</div>
+		<div class="navigation">
+			<h1> Idealizando o melhor em você</h1>
+			<h2>Seja seu melhor investimento.</h2>
+		</div>
+
+		<div class="content">
+		<h3>
+			Érica Carneiro Araújo 
+			<br> 03/04/2020
+		</h3>
+		<img src="img/coffee.jpg" alt="Coffee to be happy">
+		<h1>
+		<i>My first website here is my content</i>
+	</h1>
+		
+	</div>
+		</body>
+
+
+
+</html>
